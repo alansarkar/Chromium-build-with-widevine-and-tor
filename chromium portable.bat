@@ -1,7 +1,7 @@
 @echo off 
 set AutoHDREnable=1
 set GpuPreference=1
-.\chromium\chromium.exe --user-data-dir=./data  ^
+start /low  /i /affinity 0x53 .\chromium\chromium.exe --user-data-dir=./data  ^
  --disable-3d-apis --no-pings --disable-renderer-backgrounding  ^
  --disable-extensions-http-throttling  ^
 --force-devtools-available  --disable-background-networking  ^
