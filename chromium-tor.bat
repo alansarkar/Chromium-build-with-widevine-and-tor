@@ -1,5 +1,6 @@
 @echo off 
 start cmd.exe   .\chromium\exten\tor.exe
+timeout /t 30
 
 set AutoHDREnable=1
 set GpuPreference=1
