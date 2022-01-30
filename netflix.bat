@@ -1,3 +1,4 @@
+@echo 0ff
 .\chromium\chromium.exe ^
  -–disable-background-mode ^
   --user-data-dir=./data  --disable-3d-apis  --disable-gl-extensions ^
